@@ -13,7 +13,7 @@ This tool provide a pipeline that can help you download PDF(s), merge them into 
 }
 ```
 
-2. Note that the `save_root` property is where PDFs save, such as "/home/user/documents/papers/"
+2. Note that the `save_root` property is where PDFs save, such as `/home/user/documents/papers/`.
 In this directory, it should contain some directories like:
 ```plaintext
 YOUR_ROOT
