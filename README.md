@@ -2,7 +2,7 @@
 This tool provide a pipeline that can help you download PDF(s), merge them into a single file and rename it based on the venue, title and authors.
 
 # Usage
-1. Write `config.json` at `${HOME}/paper-down/config.json` with the following format:
+1. Write `config.json` at `${HOME}/.config/paper-down/config.json` with the following format:
 
 ```json
 {
@@ -13,7 +13,7 @@ This tool provide a pipeline that can help you download PDF(s), merge them into 
 }
 ```
 
-2. Note that the `save_root` property is the place where PDFs save to.
+2. Note that the `save_root` property is where PDFs save, such as "/home/user/documents/papers/"
 In this directory, it should contain some directories like:
 ```plaintext
 YOUR_ROOT
